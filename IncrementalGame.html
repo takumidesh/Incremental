@@ -1,18 +1,20 @@
 <html>
-	<h1>A Game!</h1>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	<head>
+		<link rel="stylesheet" type="text/css" href="interface.css" />
+	</head>	
+			<body>
+				<h1>A Game!</h1>
+				<p>Clicks</p>
+				<!--our click counter-->
+				<span id="clickcount">0</span><br />
+				<p>Cursors</p>
+				<span id="cursors">0</span><br />
+		<!--This is the button we are clicking to increase the count-->	
+		<button onclick="clickincrease(1)" type="button">Click</button>
+		<!-- buying a cursor -->
+		<button onclick="BuyCursor()" type="button">Cursor <span id="cursorcost">10</span></button>
+		
+		
+			<script type="text/javascript" src="main.js"></script>
+			</body>
 </html>
