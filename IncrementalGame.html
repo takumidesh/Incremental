@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="interface.css" />
-		<title>A Game!</title>
+	<link rel="stylesheet" type="text/css" href="interface.css" />
+	<title>A Game!</title>
 	</head>	
 			
-			<body>
-				
-				<h1>A Game!</h1>
-				<p>Clicks</p>
-				<!--our click counter-->
-				<span id="clickcount">0</span><br />
-				<p>Cursors</p>
-				<span id="cursors">0</span><br />
-		<!--This is the button we are clicking to increase the count-->	
-		<button onclick="clickincrease(1)" type="button">Click</button>
-		<!-- buying a cursor -->
-		<button onclick="BuyCursor()" type="button">Cursor <span id="cursorcost">10</span></button>
-		
-		
-			<script type="text/javascript" src="main.js"></script>
-			</body>
+	<body>
+	<h1>A Game!</h1>
+	<!--click count-->
+	<p>Clicks: <span id="clickcount">0</span><br /></p>
+	<!--cursor count-->
+	<p>Cursors: <span id="cursors">0</span><br /></p>		
+	<!--click button, adds one to clickcount-->	
+	<button onclick="clickincrease(1)" type="button">Click</button>
+	<!-- buying a cursor -->
+	<button onclick="BuyCursor()" type="button">Cursor <span id="cursorcost">10</span></button>
+	<!--saving the game-->
+	<button onclick="save()" type="button">Save</button>
+	<!-- Loading the game-->
+	<button onclick="load()" type="button">Load</button>
+	<!-- deleting a save-->
+	<button onclick="delsave()" type="button">Delete</button>
+	<script type="text/javascript" src="main.js"></script>
+	</body>
 			
 </html>
