@@ -10,14 +10,15 @@ function clickincrease(number){
 //function to buy cursors
 function BuyCursor(){
 	var cursorcost = Math.floor(10 * Math.pow(1.1,cursors));
-	if(cookies >= cursorcost{
+	if(clicks >= cursorcost){
 		cursors = cursors + 1;
 		clicks = clicks - cursorcost;
 		document.getElemeentById('cursors').innerHTML = cursors;
-		documents.getElementById('clickcount').innerHTML = clicks
+		document.getElementById('clickcount').innerHTML = clicks;
 	};
-	var nextCost = math.floor(10 * math.pow(1.1,cursors));
+	var nextCost = Math.floor(10 * Math.pow(1.1,cursors));
 	document.getElementById('cursorcost').innerHTML = nextCost;
+}
 
 
 
