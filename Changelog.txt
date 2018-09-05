@@ -1,0 +1,18 @@
+Version 0.0.1-3
+    Added a time loop
+        New feature! - Cursors now add 1 click per second per cursor owned
+    Added saving and loading core functionality
+        --Save and load functionality is not implemented yet
+    Cleaned up some code
+    Fixed all known bugs
+
+
+Version 0.0.1-2
+    fixed variable name cookies to clicks
+    fixed various typos and syntax mistakes
+
+
+Version 0.0.1-1 - 
+    Core Javascript, and HTML created, basic click concepts. - game is broken
+    General concept still in work
+ 
